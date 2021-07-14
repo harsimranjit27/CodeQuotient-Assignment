@@ -1,0 +1,40 @@
+body{
+    background-color: thistle;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 5%;
+}
+.input-board-size{
+    width: 75vw;
+    margin: 4em auto;
+}
+.input-board-size > h3{
+    font-size: 1.5em;
+}
+#size{
+    height: 2em;
+    width: 25vw;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 0em 1em;
+}
+button{
+    background-color: royalblue;
+    color: white;
+    border: 2px solid royalblue;
+    border-radius: 0.5em 0.5em;
+    padding: 0.25em 0.5em;
+    margin: 0em 1em;
+    font-size: 0.65em;
+}
+button:hover{
+    opacity: 0.95;
+    border: 2px solid black;
+    color: black;
+}
+#display{
+    text-align: center;
+    font-size: 1.5em;
+}
