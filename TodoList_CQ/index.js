@@ -4,7 +4,6 @@ let parentOfListItems = document.getElementById("tasks-list");
 // parentOfListItems.style.border = "2px solid teal";
 let inputArea = document.querySelector("#write-tasks");
 inputArea.focus();
-
 // EVENT LISTENERS
 inputArea.addEventListener("keyup",function(event){
     // CHECK PRESS OF ENTER KEY
